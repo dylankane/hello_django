@@ -31,6 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+DEVELOPMENT = False
 
 
 ALLOWED_HOSTS = ['https://dmk-todo-app-d1bc52ffc75e.herokuapp.com']
